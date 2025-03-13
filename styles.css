@@ -25,7 +25,6 @@ ul, ol {
 }
 
 ul li, ol li {
-    display: inline-block;
     margin: 5px 15px;
 }
 

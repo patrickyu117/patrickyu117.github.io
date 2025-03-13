@@ -18,10 +18,21 @@ p {
     text-align: center;
 }
 
+ul, ol {
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+}
+
+ul li, ol li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+
 img {
     display: block;
     margin: 20px auto;
-    border-radius: 10px; /* Rounded Image Corners */
+    border-radius: 10px;
 }
 
 nav {
